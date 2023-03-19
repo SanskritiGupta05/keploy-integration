@@ -39,3 +39,10 @@ Importing keploy files according to the [Documentation](https://docs.keploy.io/d
 Running the Keploy server:
 
 <img width="598" alt="image" src="https://user-images.githubusercontent.com/77205923/226192619-c41b9826-a3c8-4d2f-800b-6582b924aabd.png">
+
+For unit testing using Keploy, run cmd:
+
+```
+$env:KEPLOY_MODE="record"; go run server.go
+```
+
